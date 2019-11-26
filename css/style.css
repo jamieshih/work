@@ -25,17 +25,21 @@ img{max-width: 100%;height: auto;}
 .gototop:hover{background:#fa6b97;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
 
 /* --main 標題---------------------------------------------------------------------------- */
- 
+ html {
+  height: 100%;
+}
+
 body{
 	background:url(../images/index_bg.jpg) no-repeat;
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-attachment: scroll;
-	margin: 0;
+	background-size: cover;
 }
 
 .main{
-	width: 100%;	
+	width: 100%;
+	height: 2376px;
 }
 
 
@@ -67,9 +71,6 @@ body{
 	margin: 0 auto;
 }
 
-.product ul{
-}
-
 .product li{
     width: 46%;
     float: left;
@@ -77,6 +78,7 @@ body{
     position: relative;
     border: 1px solid #b4b4b4;
 }
+
 
 
 .product li a{
@@ -120,10 +122,10 @@ body{
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 	
 
-body{
-	background-color: #000;
+.main{
+	width: 100%;
+	height: auto;
 }
-
 
 .product li{
     width: 47%;
