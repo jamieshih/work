@@ -25,16 +25,12 @@ img{max-width: 100%;height: auto;}
 .gototop:hover{background:#fa6b97;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
 
 /* --main 標題---------------------------------------------------------------------------- */
- html {
-  height: 100%;
-}
 
 body{
 	background:url(../images/index_bg.jpg) no-repeat;
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-attachment: scroll;
-	background-size: cover;
 }
 
 .main{
