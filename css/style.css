@@ -118,7 +118,7 @@ body{
 }
 
 
-@media (max-width: 767px){
+@media screen and (min-width: 768px) and (max-width: 1024px) { 	
 
 body{
 	background:url(../images/index_bg.jpg) no-repeat;
@@ -128,6 +128,23 @@ body{
 	margin: 0;
 	background-size:cover;	
 }	
+
+.product li{
+    width: 47%;
+    float: left;
+    margin:10px;
+    position: relative;
+    border: 1px solid #b4b4b4;
+}
+
+.product li a{
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-size: 36px;
+}
+
 
 
 }
