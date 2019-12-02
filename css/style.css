@@ -252,13 +252,13 @@ html[xmlns] .clearfix{display:block}
 		.social{
 			max-width: 1000px;
 			margin: 0 auto;
-			padding-bottom: 150px;
+			padding-bottom: 130px;
 		}
 
 		.social span{
 			display: block;
 			color: #fff;
-			font-size:36px;
+			font-size:32px;
 			font-weight: bold;
 			line-height: 70px;
 		}
