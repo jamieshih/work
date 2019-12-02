@@ -158,6 +158,23 @@ html[xmlns] .clearfix{display:block}
 			margin-left:-1%;
 		}
 
+		.moreA{
+			display: block;
+			position: absolute;
+			z-index: 9999;
+			top: 240px;
+			right: 265px;
+		}
+
+
+		.moreB{
+			display: block;
+			position: absolute;
+			z-index: 9999;
+			top: 240px;
+			right: 60px;
+		}
+
 	}
 
 .info02{
@@ -258,7 +275,7 @@ html[xmlns] .clearfix{display:block}
 		.social span{
 			display: block;
 			color: #fff;
-			font-size:32px;
+			font-size:22px;
 			font-weight: bold;
 			line-height: 70px;
 		}
