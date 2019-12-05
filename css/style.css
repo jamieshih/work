@@ -10,13 +10,15 @@ a{
 .header-inner{
 	width: 100%;	
     background-color: #fff;
-    position:relative;  
+    position:relative;
+    border-bottom: 1px solid #f0f0f0;
+
 }
 
 
 .header{
 	max-width: 1024px;
-	padding: 10px 0 65px 0;
+	padding: 10px 0 75px 0;
 	margin: 0 auto;	
 }
 
@@ -339,7 +341,7 @@ a{
 	   	 	text-align: center;
 	    	line-height: 30px;	
 		}
-		
+
 		.content-pages p{
 			padding:10px 20px 0 20px;
 			color: #333333;
