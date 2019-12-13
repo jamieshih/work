@@ -442,8 +442,7 @@ html[xmlns] .clearfix{display:block}
 	background: #23385c;
 	bottom: 0;
 	position:fixed;
-	margin-top: 100px;
-	z-index: 9999;
+	z-index: 99999;
 	opacity: 0.95;
 }
 
@@ -505,7 +504,6 @@ html[xmlns] .clearfix{display:block}
 			background: #23385c;
 			bottom: 0;
 			position:fixed;
-			margin-top: 100px;
 			z-index: 9999;
 			opacity: 0.95;
 			display: block;
