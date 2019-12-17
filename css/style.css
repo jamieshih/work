@@ -227,6 +227,19 @@ a{
 	margin:80px auto;
 }
 
+
+	 @media(max-width: 768px) {
+		.content-works , .content-about{
+			max-width: 100%;
+			height: auto;
+			background-color: #fff;	
+			display: table;
+			margin:20px auto;
+		}
+	}
+
+
+
 .content-works ul{
 	width: 90%;	
 	margin: 0 auto;
@@ -316,7 +329,7 @@ a{
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
 .content-pages img{
@@ -335,6 +348,16 @@ a{
 }
 
 .content-pages h3{
+	padding:50px 0 0 0;
+	color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;	
+}
+
+.content-pages h4{
 	padding:0 0 0 0;
 	color: #333333;
     font-size: 15px;
@@ -344,7 +367,8 @@ a{
     line-height: 30px;	
 }
 
-.content-pages h3 a{
+
+.content-pages h3 a{	
 	color: #547ad9;
 }
 
@@ -359,6 +383,17 @@ a{
 	   	 	text-align: center;
 	    	line-height: 30px;	
 		}
+
+	 	.content-pages h4{
+			padding:20px 0 20px 0;
+			color: #333333;
+	   		font-size: 15px;
+	   	 	font-weight: bold;
+	   		 margin: 0 auto;
+	   	 	text-align: center;
+	    	line-height: 30px;
+		}
+
 
 		.content-pages p{
 			padding:10px 20px 0 20px;
@@ -397,7 +432,7 @@ a{
 .content-about .aboutme{
 	width: 70%;
 	float: left;
-	padding:0 80px;
+	padding:20px 80px 100px 80px
 }
 
 
@@ -414,17 +449,54 @@ a{
 
 
 .content-about p{
-	color: #242424;
+	color: #646464;
     font-size: 14px;
     margin: 0 auto;
     text-align: left;
-    line-height: 36px;
+    line-height: 32px;
     word-break: break-all;
 }
 
 
 .content-about .exper{
-	width: 70%;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	float: left;
+	padding:0 80px;
+}
+
+.content-about .exper ul{
+	margin-top: 20px;
+}
+.content-about .exper li{
+	display: block;
+	color: #141414;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: left;
+    line-height: 32px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.content-about .exper li p {
+	font-weight: normal;
+	font-size: 14px;
+	color: #777777;
+}
+
+.content-about .exper li span {
+	font-weight: normal;
+	font-size: 14px;
+	color: #777777;
+	padding-left: 10px;
+}
+
+
+
+.content-about .skill{
+	width: 40%;
 	height: auto;
 	margin: 0 auto;
 	float: left;
@@ -432,12 +504,43 @@ a{
 }
 
 
-.content-about .skill{
-	width: 30%;
-	height: auto;
-	margin: 0 auto;
+.content-about .skill ul{
 	float: left;
-	padding:0 80px;
+	width: 100%;
+	margin-left: 20px;
+}
+
+.content-about .skill li{
+	font-size: 14px;
+	margin: 20px 0 10px 0;
+}
+.content-about .skill li img{
+	width: 17%;
+	margin:0px 15px 20px 5px;
+	float: left;
+}
+
+.content-about .skill .title{
+	color: #141414;
+	display: table;
+	text-align: left;
+	font-size: 14px;
+	margin:20px 0 20px 0;
+	border-radius: 0px;
+	line-height: 20px;
+}
+
+.content-about .skill .text{
+	float: left;
+	background: #141414;
+	color: #fff;
+	display: table;
+	text-align: center;
+	padding:5px 13px;
+	font-size: 12px;
+	margin:0px 10px 20px 0px;
+	border-radius: 5px;
+	line-height: 22px;
 }
 
 .pure-button{
@@ -484,3 +587,145 @@ a.pure-button-disabled .cancel{
 
 }
 
+
+	 @media(max-width: 768px) {
+		.content-about{
+			max-width: 100%;
+			height: auto;
+			background-color: #fff;	
+			display: table;
+			margin:30px auto;
+			padding:0;
+		}
+
+
+		.content-about .photo{
+			width: 70%;
+			margin: 0 auto;
+			float: none;
+			display: block;
+		}
+
+
+		.content-about .photo img{
+			margin: 0 auto;
+		}
+
+		.content-about .aboutme{
+			width: 100%;
+			float: left;
+			padding:20px 20px 50px 20px
+		}
+
+
+		.content-about h3{
+			padding:0 0 10px 0;
+			color: #141414;
+		    font-size: 20px;
+		    font-weight: bold;
+		    margin: 0 auto;
+		    text-align: left;
+		    line-height: 40px;
+		    border-bottom: 1px solid #141414;
+		}
+
+
+		.content-about p{
+			color: #646464;
+		    font-size: 14px;
+		    margin: 0 auto;
+		    text-align: left;
+		    line-height: 32px;
+		    word-break: break-all;
+		}
+
+
+		.content-about .exper{
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+			float: none;
+			padding:20px 20px 50px 20px
+		}
+
+		.content-about .exper ul{
+			margin-top: 20px;
+		}
+		.content-about .exper li{
+			display: block;
+			color: #141414;
+			font-size: 14px;
+			text-decoration: none;
+			text-align: left;
+		    line-height: 32px;
+		    padding-bottom: 30px;
+		    font-weight: bold;
+		}
+
+		.content-about .exper li p {
+			width: 100%;
+			font-weight: normal;
+			font-size: 14px;
+			color: #777777;
+			display: inline-block;
+		}
+
+		.content-about .exper li span {
+			font-weight: normal;
+			font-size: 14px;
+			color: #9a601b;
+			padding-left: 0px;
+			float: left;
+		}
+
+
+
+		.content-about .skill{
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+			float: left;
+			padding:0 20px;
+		}
+
+
+		.content-about .skill ul{
+			float: left;
+			width: 100%;
+			margin-left: 0px;
+		}
+
+		.content-about .skill li{
+			font-size: 14px;
+			margin: 20px 0 10px 0;
+		}
+		.content-about .skill li img{
+			width: 17%;
+			margin:0px 15px 20px 5px;
+			float: left;
+		}
+
+		.content-about .skill .title{
+			color: #141414;
+			display: table;
+			text-align: left;
+			font-size: 14px;
+			margin:20px 0 20px 0;
+			border-radius: 0px;
+			line-height: 20px;
+		}
+
+		.content-about .skill .text{
+			float: left;
+			background: #141414;
+			color: #fff;
+			display: table;
+			text-align: center;
+			padding:5px 13px;
+			font-size: 12px;
+			margin:0px 10px 20px 0px;
+			border-radius: 5px;
+			line-height: 22px;
+		}
+		 	
+	 }
