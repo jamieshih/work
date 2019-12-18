@@ -374,6 +374,13 @@ a{
 
 	 @media(max-width: 768px) {
 
+		.content-pages img{
+			height: auto;
+			margin: 0 auto;
+			display: block;
+		}
+
+
 	 	.content-pages h3{
 			padding:50px 0 0 0;
 			color: #333333;
@@ -426,7 +433,9 @@ a{
 
 
 .content-about .photo img{
-	margin: 0 auto;
+	margin: 10px auto;
+    width: 80%;
+    padding: 20px;
 }
 
 .content-about .aboutme{
