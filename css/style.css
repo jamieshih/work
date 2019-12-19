@@ -420,7 +420,7 @@ a{
 	background-color: #fff;	
 	display: table;
 	margin:80px auto;
-	padding:0 280px;
+	padding:0 100px;
 }
 
 
@@ -434,7 +434,7 @@ a{
 
 .content-about .photo img{
 	margin: 10px auto;
-    width: 80%;
+    width: 60%;
     padding: 20px;
 }
 
@@ -498,8 +498,8 @@ a{
 .content-about .exper li span {
 	font-weight: normal;
 	font-size: 14px;
-	color: #777777;
 	padding-left: 10px;
+	color: #9a601b;
 }
 
 
@@ -537,6 +537,7 @@ a{
 	margin:20px 0 20px 0;
 	border-radius: 0px;
 	line-height: 20px;
+	width: 100%;
 }
 
 .content-about .skill .text{
@@ -551,6 +552,20 @@ a{
 	border-radius: 5px;
 	line-height: 22px;
 }
+
+
+	 @media(max-width: 768px) {
+
+		.content-about{
+			max-width: 100%;
+			height: auto;
+			background-color: #fff;	
+			display: table;
+			margin:80px auto;
+			padding:0 0;
+		}
+
+	}
 
 .pure-button{
 	margin: 0px 5px;
@@ -698,7 +713,9 @@ a.pure-button-disabled .cancel{
 			font-size: 14px;
 			color: #9a601b;
 			padding-left: 0px;
-			float: left;
+			float: none;
+			width: 100%;
+			display: block;
 		}
 
 
@@ -723,7 +740,7 @@ a.pure-button-disabled .cancel{
 			margin: 20px 0 10px 0;
 		}
 		.content-about .skill li img{
-			width: 17%;
+			width: 15%;
 			margin:0px 15px 20px 5px;
 			float: left;
 		}
