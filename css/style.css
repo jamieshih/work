@@ -307,7 +307,7 @@ body{
 .product li{
     width: 47%;
     float: left;
-    margin:10px;
+    margin:13px 15px 20px 15px;
     position: relative;
     /*border: 1px solid #b4b4b4;*/
 }
@@ -325,10 +325,11 @@ body{
 	max-width: 100%;
 	margin: 0 auto;
 	padding-bottom: 30px;
-	background: url(../images/05_bg.png);
+	/*background: url(../images/05_bg.png);*/
 }
 
 .social li{
+	padding-top: 70px;
 	width: 33%;
 }
 
