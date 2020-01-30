@@ -306,6 +306,11 @@ body{
 	height: auto;
 }
 
+.content_social{
+	margin-top: 30px;
+	display: inline-block;
+}
+
 .product li{
     width: 47%;
     float: left;
