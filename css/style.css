@@ -198,73 +198,25 @@ html[xmlns] .clearfix{display:block}
 
 
 .content_event{
-	max-width: 950px;
+	width: 900px;
 	height: auto;
 	margin: 0 auto;
 	position: relative;
 	background:#fff;
 	background-repeat: no-repeat;	
-	padding:70px 0 50px 0;
+	padding:70px 0 0 0;
+	margin-bottom: 50px;
 }
 
-.content_event_text{
-	max-width: 840px;
-	height: auto;
-	margin: 50px auto;
-   line-height: 30px;	
-}
 
 .content_event .title{
-	width: 900px;
+	width: 885px;
+}
+
+.content_event img{
 	margin:0 auto;
 }
 
-.content_event_text ul{
-	margin-bottom:50px;
-}
-
-.content_event_text li.week{
-	background:url(../images/gray.png) left top;
-	background-repeat: no-repeat;
-	line-height: 28px;
-	font-size: 28px;
-	color: #473d3a;
-	padding: 0 0 20px 30px;
-	letter-spacing: -0.1em;
-}
-
-.content_event_text li.normal{
-	float: left;
-	color: #646464;
-}
-
-.content_event_text li.red{
-	float: left;
-	color: red;
-	font-size: 14px;
-}
-
-.content_event_text li.explain{
-	float: left;
-    width: 730px;
-    color: #646464;
-    font-size: 15px;
-}
-
-.week_text{
-	line-height: 28px;
-	font-size: 15px;
-	color: #646464;
-	font-weight: bold;
-}
-
-.week_text p{
-	display: inline-block;
-}
-
-.week_text span{
-	display: inline-block;
-}
 .content_01{
 	width: 100%;
 	height: auto;
@@ -333,8 +285,9 @@ html[xmlns] .clearfix{display:block}
 	height: auto;
 	margin: 0 auto;
 	background:url(../images/03_bg.png);
-	background-repeat:no-repeat;
+	background-repeat:repeat-y;
 	padding:80px 0 0 0;
+    display: flex;	
 }
 
 .content_04{
