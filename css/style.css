@@ -72,7 +72,7 @@ html[xmlns] .clearfix{display:block}
     right: 15px;
     bottom:10%;
     right: 2%;
-    background-color: #23657e;
+    background-color: #4371a9;
     z-index: 15;
     color: #fff;
     text-align: center;
@@ -630,6 +630,14 @@ html[xmlns] .clearfix{display:block}
 			text-align: center;
 			margin:80px auto 140px auto; 
 		}
+
+		.social span{
+			display: block;
+			color: #fff;
+			font-size:24px;
+			line-height: 50px;
+		}
+
 
 		.footer{
 			display: none;
