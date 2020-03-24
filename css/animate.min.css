@@ -171,7 +171,7 @@ slideLeft
 
 @keyframes slideLeft {
 	0% {
-		transform: translateX(150%);
+		transform: translateX(150%) ;
 	}
 	50%{
 		transform: translateX(-8%);
@@ -1359,4 +1359,30 @@ floating3
 	}
 
 			
+}
+
+/**/
+.slideLeft2{
+	animation-name: slideLeft2;
+	-webkit-animation-name: slideLeft2;	
+
+	animation-duration: 0.5s;	
+	-webkit-animation-duration: 0.5s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideLeft2 {
+	0% {
+		transform: translateY(0%);	filter:brightness(100%)
+	}
+	50% {
+		transform: translateY(10px);filter:brightness(120%)	
+	}	
+	100% {
+		transform: translateY(0%);	filter:brightness(100%)
+	}		
 }

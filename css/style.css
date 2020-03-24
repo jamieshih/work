@@ -136,7 +136,7 @@ html[xmlns] .clearfix{display:block}
 .kv_content{
 	margin: 0 auto;
 	width:1000px;
-	height:910px; 
+	height:872px; 
 	background:url(../images/kv_blue.png);
 	background-repeat:no-repeat;
 	position: relative;
@@ -192,8 +192,8 @@ html[xmlns] .clearfix{display:block}
 .slogan1{
 	display: block;
 	position: absolute;
-    left: 230px;
-    top: 70px;
+	left: 80px;
+    top: 175px;
 	overflow:visible;
 	z-index: 999;
 }
@@ -201,34 +201,34 @@ html[xmlns] .clearfix{display:block}
 .slogan2{
 	display: block;
 	position: absolute;
-    left: 150px;
-    top: 585px;
+    left: 220px;
+    top: 495px;
 	overflow:visible;
-	z-index: 999;
+	z-index: 999;	
+	animation-delay: 0.5s; 	
 }
+
+.slogan3{
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 140px;
+	overflow:visible;
+	z-index: 998;
+	animation-delay: 0s; 	
+}
+
 
 .circle{
     display: block;
     position: absolute;
-    left: 170px;
-    top: 140px;
+    right: 170px;
+    top: 110px;
+   	overflow:visible;
+	z-index: 999; 
+	animation-delay: 0.8s; 	
 }
 
-.bglogo{
-	display: block;
-    position: absolute;
-    left: 480px;
-    top: 805px;
-    z-index: 10;
-}
-
-.dog{
-    display: block;
-    position: absolute;
-    left: 70px;
-    top: 494px;
-    clear: both;
-}
 .content{
 	max-width: 1000px;
 	height: auto;
@@ -264,7 +264,7 @@ html[xmlns] .clearfix{display:block}
 	width: 1000px;
 	margin: 0 auto;
 	display: block;
-	margin:0px 0 10px 0;
+	margin:10px 0 10px 0;
 }
 
 
@@ -318,20 +318,6 @@ html[xmlns] .clearfix{display:block}
 }
 
 
-.next1 img{
-	position: absolute;
-    z-index: 1;
-    left: 320px;
-    top: 400px;
-}
-
-.next2 img{
-	position: absolute;
-    z-index: 3;
-    left: 650px;
-    top: 400px;
-}
-
 .list_A{
 	width: 1000px;
 	height: auto;
@@ -343,22 +329,12 @@ html[xmlns] .clearfix{display:block}
 	margin: 0 auto;
 	display: table;
 	float: left;
-	cursor:pointer;
-	width: 28%;
-	padding: 0px 10px 30px 36px;
+	width: 33%;
+	padding: 10px 0px 10px 0px;
 	z-index: 2;
 	position: relative;
 }
 
-
-.list_A li:hover{
-	transition: 0.3s;
-	transform:translateY(2px);
-	-webkit-transform:translateY(2px);
-	-moz-transform:translateY(2px);
-	-ms-transform:translateY(2px);
-	-o-transform:translateY(2px);
-}
 
 .list_A .text {
 	width: 1000px;
@@ -368,19 +344,27 @@ html[xmlns] .clearfix{display:block}
 .list_A .text:hover {
 	transform:translateY(0px);
 }
+
 .list_A .text img ,.list_A li img{
 	margin: 0 auto;
 }
 
-.list_A li img:hover{
+.s_more{
+	position: absolute;
+	left:330px;
+	top: 808px;
+}
+
+.s_more:hover{
 	transition: 0.3s;
-	transform:translateY(2px);
-	-webkit-transform:translateY(2px);
-	-moz-transform:translateY(2px);
-	-ms-transform:translateY(2px);
-	-o-transform:translateY(2px);
+	transform:translateY(1px);
+	-webkit-transform:translateY(1px);
+	-moz-transform:translateY(1px);
+	-ms-transform:translateY(1px);
+	-o-transform:translateY(1px);
 	filter:brightness(120%)
 }
+
 
 .event{
 	width: 1000px;
@@ -390,6 +374,43 @@ html[xmlns] .clearfix{display:block}
 	padding-top: 40px;
 	padding-bottom: 100px;
 }
+
+
+.product_logo{
+	display: table;
+	padding-bottom: 130px;
+}
+
+.product_logo ul{
+}
+
+.product_logo li{
+	display: block;
+	float: left;
+	padding:40px 16px 5px 16px;
+}
+
+
+.product_brand{
+	display: table;
+}
+
+.product_brand li{
+	display: block;
+	float: left;
+	padding:40px 16px 5px 16px;
+}
+
+.product_logo li:hover, .product_brand li:hover{
+	transition: 0.3s;
+	transform:translateY(2px);
+	-webkit-transform:translateY(2px);
+	-moz-transform:translateY(2px);
+	-ms-transform:translateY(2px);
+	-o-transform:translateY(2px);
+	filter:brightness(110%)
+}
+
 
 /*------------------商品css---------------*/
 
@@ -455,13 +476,8 @@ html[xmlns] .clearfix{display:block}
 	color: #ffffe1;
 }
 
-.title_s img{
-	display: block;
-	margin:20px auto;
-	padding-left: 20px;
-}
 
-.title_s img:hover{
+.title img:hover{
 	transition: 0.3s;
 	transform:translateY(2px);
 	-webkit-transform:translateY(2px);
@@ -498,7 +514,7 @@ html[xmlns] .clearfix{display:block}
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
-	background-color: #de4839;
+	background-color: #00b0b6;
 	background-repeat: repeat;
 }
 
