@@ -233,7 +233,7 @@ a, a:hover,.hover {
 .sale_con{
 	display: table;
 	position: relative;
-	margin:0 auto 45px 0;
+	margin:0 auto 40px 0;
 }
 
 .sale_con ul{
@@ -245,7 +245,62 @@ a, a:hover,.hover {
 	float: left;
 }
 
-.sale_con li:hover{
+
+.sale_con li img{
+	display: block;
+	margin: 0 auto;	
+}
+
+.sale_con_tw{
+	display: table;
+	position: relative;
+	margin:0 auto 0 auto;
+	width: 1000px;
+	height: 468px;
+  background: url(../images/tw_computer.png) no-repeat;
+}
+
+.sale_con_tw ul{
+}
+
+.sale_con_tw .tw_a img{
+	position: absolute;
+	top: 0px;
+	left:210px;
+}
+
+.sale_con_tw .tw_b img{
+	position: absolute;
+	top: 145px;
+	left:35px;
+}
+
+.sale_con_tw .tw_c img{
+	position: absolute;
+	top: 290px;
+	left:180px;
+}
+
+.sale_con_tw .tw_d img{
+	position: absolute;
+	top: 0px;
+	right:210px;
+}
+
+.sale_con_tw .tw_e img{
+	position: absolute;
+	top: 145px;
+	right:30px;
+}
+
+.sale_con_tw .tw_f img{
+	position: absolute;
+	top: 290px;
+	right:180px;
+}
+
+
+.sale_con li:hover ,.sale_con_tw img:hover{
 	transition: 0.3s;
 	transform:translateY(2px);
 	-webkit-transform:translateY(2px);
@@ -258,11 +313,6 @@ a, a:hover,.hover {
 	transition:0.3s;
 }
 
-
-.sale_con li img{
-	display: block;
-	margin: 0 auto;	
-}
 
 .sale_con .wowimg{
 	position: absolute;
