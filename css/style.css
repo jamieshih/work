@@ -23,7 +23,7 @@ a, a:hover,.hover {
 .topbar{
 	width: 100%;
 	height: 38px;
-	background-color: #0a0a0a;
+	background-color: #7238c6;
 	line-height: 38px;
 	margin: 0 auto;
 }
@@ -38,11 +38,11 @@ a, a:hover,.hover {
 
 .sidebar{
     position: fixed;
-    right: 10px;
+    right: 15px;
     top:20%;
     z-index: 100;
     display: block;
-    background-color: #fdf328;
+    background-color: #8ee1f8;
     opacity: 0.8;
     border-radius: 100px;
     padding: 30px 20px;
@@ -144,13 +144,28 @@ a, a:hover,.hover {
 	overflow: hidden;
 }
 
+.money{position:absolute;top:0;left:-320px;z-index:10; display:block;}	
+
 
 	@media screen and (min-width: 768px) and (max-width: 1024px){
 
 		.light{
 			display: none;
 		}
+
+		.money{
+			display: none;
+		}
+
+		.wrap{
+			max-width: 100%;
+		  margin: 0 auto;
+		  background: url(../images/kv_mbg.jpg) no-repeat;
+		  background-position:top center;
+		}
+
 	}
+
 
 .kv{
 	max-width: 100%;
@@ -163,7 +178,7 @@ a, a:hover,.hover {
 	width: 100%;
 	margin: 0 auto;
 	width:1000px;
-	height:825px; 
+	height:840px; 
 	background-repeat:no-repeat;
 	position: relative;
 }
@@ -173,8 +188,8 @@ a, a:hover,.hover {
 .logo {
 	position: absolute;
 	display: block;
-  top: 155px;
-  left: 300px;
+  top: 20px;
+  left: 400px;
  }
 
  .kv_day{
@@ -184,19 +199,35 @@ a, a:hover,.hover {
   left: 150px;
 }
 
-.kv_slogan{
+.kv_slogan0{
 	position: absolute;
 	display: block;
-  top: 220px;
-  left: 195px;
-  animation-delay: 0.2s; 
+  top: 110px;
+  left: 295px;
+  animation: slogan1fadeIn 0.8s linear, lightning 3s ease-in-out infinite alternate ; 
 }
 
+.kv_slogan1{
+	position: absolute;
+	display: block;
+  top: 270px;
+  left: 0px;
+  animation: slogan1fadeIn 0.8s linear, lightning 3s ease-in-out infinite alternate ;
+}
+
+.kv_slogan2{
+	position: absolute;
+	display: block;
+  top: 520px;
+  left: 165px;
+  animation-delay: 0.2s; 
+}
+/*
 .kv_clock{
   position: absolute;
   display: block;
-  top: 150px;
-  left: 690px;
+  top: 160px;
+  left: 740px;
   animation-delay: 0.5s;  
 }
 
@@ -211,11 +242,11 @@ a, a:hover,.hover {
   left: 0px;
   animation-delay: 0.5s;
 }
-
+*/
 .arrow{
   display: block;
   position: absolute;
-  left: 480px;
+  left: 450px;
   animation: scroll 1s linear infinite;
 }
 
@@ -230,77 +261,14 @@ a, a:hover,.hover {
 	padding-top: 40px;
 }
 
-.sale_con{
-	display: table;
-	position: relative;
-	margin:0 auto 40px 0;
-}
-
-.sale_con ul{
-	margin: 8px 30px;
-}
-
-.sale_con li{
-	margin:10px;
-	float: left;
-}
-
-
-.sale_con li img{
+.hk_more{
+	position: absolute;
 	display: block;
-	margin: 0 auto;	
+	bottom: 250px;
+	right: 150px;
 }
 
-.sale_con_tw{
-	display: table;
-	position: relative;
-	margin:0 auto 0 auto;
-	width: 1000px;
-	height: 468px;
-  background: url(../images/tw_computer.png) no-repeat;
-}
-
-.sale_con_tw ul{
-}
-
-.sale_con_tw .tw_a img{
-	position: absolute;
-	top: 0px;
-	left:200px;
-}
-
-.sale_con_tw .tw_b img{
-	position: absolute;
-	top: 145px;
-	left:25px;
-}
-
-.sale_con_tw .tw_c img{
-	position: absolute;
-	top: 280px;
-	left:180px;
-}
-
-.sale_con_tw .tw_d img{
-	position: absolute;
-	top: 0px;
-	right:210px;
-}
-
-.sale_con_tw .tw_e img{
-	position: absolute;
-	top: 145px;
-	right:30px;
-}
-
-.sale_con_tw .tw_f img{
-	position: absolute;
-	top: 280px;
-	right:180px;
-}
-
-
-.sale_con li:hover ,.sale_con_tw img:hover{
+.hk_more img:hover{
 	transition: 0.3s;
 	transform:translateY(2px);
 	-webkit-transform:translateY(2px);
@@ -314,11 +282,65 @@ a, a:hover,.hover {
 }
 
 
+.sale_con{
+	width: 800px;
+	margin: 0 auto;
+	display: table;
+	margin-bottom: 130px;
+}
+
+.sale_con ul{
+	margin: 0 auto;
+	display: block;
+}
+
+.sale_con li{
+	float: left;
+	margin-left: 10px;
+}
+
+.sale_con li:hover{
+	transition: 0.3s;
+	transform:translateY(2px);
+	-webkit-transform:translateY(2px);
+	-moz-transform:translateY(2px);
+	-ms-transform:translateY(2px);
+	-o-transform:translateY(2px);	
+	-webkit-filter:brightness(105%); 
+	-webkit-transition:0.3s; 
+	-o-transition:0.3s; 
+	transition:0.3s;
+}
+
+
+.sale_con li img{
+	display: block;
+	margin: 0 auto;	
+}
+
+.sale_con img{
+	display: block;
+	margin: 0 auto;
+	float: left;
+}
+.sale_con a img:hover{
+	transition: 0.3s;
+	transform:translateY(2px);
+	-webkit-transform:translateY(2px);
+	-moz-transform:translateY(2px);
+	-ms-transform:translateY(2px);
+	-o-transform:translateY(2px);	
+	-webkit-filter:brightness(105%); 
+	-webkit-transition:0.3s; 
+	-o-transition:0.3s; 
+	transition:0.3s;
+
+}
 .sale_con .wowimg{
 	position: absolute;
 	display: block;
-  top: -50px;
-  left: 80px;	
+	margin-top: 80px;
+	right: 30px;
   z-index: 999;
 }
 
@@ -345,19 +367,21 @@ a, a:hover,.hover {
 .con01{
 	float: left;
 	position: relative;
-	margin-left: 25px;
+	width: 1000px;
+	margin-bottom: 50px;
 }
 
 .con01 li{
+	width: 410px;
 	float: left;
-	background: #000;
 	/*padding: 14px 10px 20px 10px; */
-	margin:5px 4px 10px 4px;
-	border:2px solid #000;
+	padding: 20px;
 }
 
 .con01 li img{
-	display: inline-block;
+	display: block;
+	margin:0 auto;
+	margin-left: 50px;
 }
 
 .con01 .item_text{
@@ -413,8 +437,8 @@ a, a:hover,.hover {
 	display: block;
 }
 
-.con01 img:hover{
-	-webkit-filter:brightness(115%); 
+.con01 img:hover , .prod_title img:hover{
+	-webkit-filter:brightness(120%); 
 	-webkit-transition:0.3s; 
 	-o-transition:0.3s; 
 	transition:0.3s;
@@ -431,15 +455,27 @@ a, a:hover,.hover {
 	width: 1000px;
 	margin: 0 auto;
 	display: block;
-	margin:0px 0 10px 0;
+	margin:10px 0 20px 0;
 }
 
-.title02 {
+.title img{
+	display: block;
+	margin: 0 auto;
+}
+
+.prod_title {
 	width: 1000px;
 	margin: 0 auto;
 	display: block;
-	margin:55px 0 0 0;;
+	margin:10px 0 10px 0;;
 }
+
+
+.prod_title img{
+	display: block;
+	margin: 0 auto;
+}
+
 
 .title03 {
 	width: 1000px;
@@ -468,7 +504,7 @@ a, a:hover,.hover {
 	height:auto;
 	margin: 0 auto;
 	display: table;
-	padding:80px 0 40px 0;
+	padding:20px 0 23px 0;
 }
 
 .notice_title img{
@@ -762,7 +798,7 @@ a, a:hover,.hover {
 .footer{
 	width: 100%;
 	height: 63px;
-	background: #0a0a0a;
+	background: #100048;
 	bottom: 0;
 	position:fixed;
 	z-index: 99999;
@@ -893,7 +929,7 @@ a, a:hover,.hover {
 
 .brightness-play{
 	-webkit-animation:brightness2-play 2s -.20s linear infinite;
-	animation:brightness2-play 2s -.20s linear infinite
+	animation:brightness2-play 2s -.20s linear infinite;
 }
 
 @keyframes scroll{0%{top:720px}
@@ -904,9 +940,9 @@ a, a:hover,.hover {
 @keyframes brightness2-play{
 0%{filter:brightness(100%)}
 88%{filter:brightness(100%)}
-91%{filter:brightness(170%)}
+91%{filter:brightness(200%)}
 94%{filter:brightness(100%)}
-97%{filter:brightness(170%)}
+97%{filter:brightness(200%)}
 100%{filter:brightness(100%)}
 }
 
@@ -1053,3 +1089,27 @@ a, a:hover,.hover {
 		0%  { -webkit-transform: scale(1); transform: scale(1); } 
 		100%{ -webkit-transform: scale(0.95); transform: scale(0.95);}
 	}
+
+@keyframes slogan1fadeIn {
+0% {
+ opacity: 0;
+ filter: blur(5px) brightness(300%);
+ transform: scale(1);
+} 
+40% {
+ opacity: 0;
+ filter: blur(2px) brightness(150%);
+ transform: scale(1);
+}
+60% {
+ opacity: 1;
+ filter: blur(2px) brightness(300%);
+ transform: scale(1.1);
+}
+ 100% {
+ opacity: 1;
+ filter: blur(0px) brightness(100%);
+ transform: scale(1);
+}
+}
+	
