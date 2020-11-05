@@ -178,7 +178,7 @@ a, a:hover,.hover {
 		.arrow{
 		  display: block;
 		  position: absolute;
-		  left: 450px;
+		  left: 460px;
 		  animation: scroll 1s linear infinite;
 		}
 
@@ -206,15 +206,31 @@ a, a:hover,.hover {
 .logo {
 	position: absolute;
 	display: block;
-  top: 135px;
+  top: 205px;
   left: 120px;
  }
+
+.top_event{
+  position: absolute;
+  display: block;
+  top: 0px;
+}
+
+.top_event:hover{
+	transition: 0.3s;
+	transform:translateX(4px);
+	-webkit-filter:brightness(105%); 
+	-webkit-transition:0.3s; 
+	-o-transition:0.3s; 
+	transition:0.3s;
+}
+
 
  .kv_day{
   position: absolute;
   display: block;
-  top: 60px;
-  left: 340px;
+  top: 145px;
+  left: 355px;
 }
 
 .kv_slogan0{
@@ -228,7 +244,7 @@ a, a:hover,.hover {
 .kv_slogan1{
 	position: absolute;
 	display: block;
-  top: 80px;
+  top: 150px;
   left: 80px;
   animation: slogan1fadeIn 0.8s linear, lightning 3s ease-in-out infinite alternate ;
 
@@ -237,7 +253,7 @@ a, a:hover,.hover {
 .kv_slogan2{
 	position: absolute;
 	display: block;
-  top: 535px;
+  top: 605px;
   left: 145px;
   animation-delay: 0.2s; 
 }
@@ -941,9 +957,9 @@ a, a:hover,.hover {
 	animation:brightness2-play 2s -.20s linear infinite;
 }
 
-@keyframes scroll{0%{top:690px}
-50%{top:680px}
-100%{top:690px}
+@keyframes scroll{0%{top:740px}
+50%{top:750px}
+100%{top:740px}
 }
 
 @keyframes brightness2-play{
