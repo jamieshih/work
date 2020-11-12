@@ -203,7 +203,7 @@ a, a:hover,.hover {
 		.wrap{
 			max-width: 100%;
 		  margin: 0 auto;
-		  /*background: url(../images/kv_mbg.jpg) no-repeat;*/
+		  background: url(../images/kv_mbg.jpg) no-repeat;
 		  background-position:top center;
 		}
 
