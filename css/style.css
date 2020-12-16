@@ -152,12 +152,38 @@ a, a:hover,.hover {
   animation: scroll 1s linear infinite; 
 }
 
+.light{
+  position: absolute;
+  z-index: -1;
+  top: 480px;
+  left: -160px;
+  overflow: hidden;
+  animation-delay: 0.8s;  
+  overflow:visible; 
+}
+
+.light_m{
+	display: none;
+}
+
 
 	@media screen and (min-width: 768px) and (max-width: 1024px){
 
 		.light{
-			overflow: hidden;
+			display: none;
 		}
+
+		.light_m{
+		  position: absolute;
+		  z-index: -1;
+		  top: 480px;
+		  left: -10px;
+		  overflow: hidden;
+		  animation-delay: 0.8s;  
+		  overflow:visible; 
+		  display: block;
+		}
+
 
 		.money{
 			display: none;
@@ -166,7 +192,7 @@ a, a:hover,.hover {
 		.wrap{
 			max-width: 100%;
 		  margin: 0 auto;
-		  background: url(../images/kvm_bg.png) no-repeat;
+		 /* background: url(../images/kvm_bg.png) no-repeat;*/
 		  background-position:top center;
 		}
 
@@ -253,15 +279,6 @@ a, a:hover,.hover {
   animation-delay: 0.6s;  
 }
 
-.light{
-  position: absolute;
-  z-index: -1;
-  top: 480px;
-  left: -160px;
-  overflow: hidden;
-  animation-delay: 0.8s;  
-  overflow:visible; 
-}
 
 
 /*
