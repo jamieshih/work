@@ -124,7 +124,7 @@ a, a:hover,.hover {
 		.topbar{
 			width: 1100px;
 			height: 38px;
-			background-color: #221715;
+			background-color: #ffd867;
 			line-height: 38px;
 			margin: 0 auto;
 		}
@@ -228,7 +228,7 @@ a, a:hover,.hover {
 	position: absolute;
 	display: block;
   top: 45px;
-  left: 445px;
+  left: 370px;
   animation-delay: 0s;    
  }
 
@@ -261,7 +261,7 @@ a, a:hover,.hover {
 	display: block;
   top: 100px;
   right: 150px;
-  animation-delay: 1.3s;     
+  animation-delay: 1s;     
 }
 
 .kv_slogan04{
@@ -482,7 +482,7 @@ a, a:hover,.hover {
 .wowimg{
 	position: absolute;
 	display: block;
-	margin-top: -300px;
+	margin-top: -395px;
 	right: 0px;
   z-index: 999;
 }
@@ -663,7 +663,7 @@ a, a:hover,.hover {
 	height:auto;
 	margin: 0 auto;
 	display: table;
-	padding:0px 0 0px 0;
+	padding:30px 0 0px 0;
 }
 
 .notice_title img{
@@ -944,7 +944,7 @@ a, a:hover,.hover {
 
 .social span{
 	display: block;
-	color: #000000;
+	color: #fff;
 	font-weight: bolder;
 	font-size:18px;
 	line-height: 50px;
@@ -1020,7 +1020,7 @@ a, a:hover,.hover {
 
 		.social span{
 			display: block;
-			color: #000000;
+			color: #fff;
 			font-size:24px;
 			line-height: 50px;
 		}
@@ -1120,10 +1120,10 @@ a, a:hover,.hover {
 
 @keyframes brightness3-play{
 0%{filter:brightness(150%)}
-10%{filter:brightness(100%)}
+10%{filter:brightness(90%)}
 20%{filter:brightness(150%)}
-40%{filter:brightness(100%)}
-60%{filter:brightness(150%)}
+40%{filter:brightness(90%)}
+60%{filter:brightness(130%)}
 80%{filter:brightness(100%)}
 100%{filter:brightness(150%)}
 }
