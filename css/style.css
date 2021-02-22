@@ -192,7 +192,7 @@ a, a:hover,.hover {
 .balloon04{
 	position: absolute;
   top: 130px;
-  right: 3%;
+  right: 5%;
 	overflow:visible;  
 	animation: uptodown 8s linear infinite; 	
 }
@@ -667,7 +667,7 @@ a, a:hover,.hover {
 	display: table;
 	float: left;
 	cursor:pointer;
-	padding: 0px;
+	padding: 10px 0 80px 0;
 }
 
 
@@ -688,7 +688,7 @@ a, a:hover,.hover {
 	margin: 0 auto;
 	display: block;
 	/*-webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));	*/
-		-webkit-filter: drop-shadow(3px 3px 0px rgba(255,255,255,100));
+		/*-webkit-filter: drop-shadow(3px 3px 0px rgba(255,255,255,100));*/
 }
 
 .social li img:hover{
@@ -704,14 +704,13 @@ a, a:hover,.hover {
 	display: block;
 	text-align: center;
 	margin:40px auto 110px auto; 
-text-shadow:
+/*text-shadow:
 -1px -1px 0 #fff,
 1px -1px 0 #fff,
 -1px 1px 0 #fff,
 1px 1px 0 #fff,
-2px 2px 2px white;
+2px 2px 2px white;*/
 
-}
 }
 
 .social span:hover{
@@ -719,11 +718,16 @@ text-shadow:
 }
 
 .social span{
+	width: 33.3333%
 	display: block;
-	color: #313131;
+	color: #fff;
 	font-size:18px;
 	font-weight: bold;
 	line-height: 50px;
+	background-color: #313131;
+	padding: 5px 10px;
+	border-radius: 20px;
+	border:2px solid #fff;
 }
 
 
@@ -816,15 +820,22 @@ text-shadow:
 		.social a{
 			display: block;
 			text-align: center;
-			margin:60px auto 140px auto; 
+			margin:20px auto 80px auto; 
 		}
 
 		.social span{
+			width: 33.3333%
 			display: block;
-			color: #313131;
+			color: #fff;
 			font-size:24px;
+			font-weight: bold;
 			line-height: 50px;
+			background-color: #313131;
+			padding: 5px 10px;
+			border-radius: 20px;
+			border:2px solid #fff;
 		}
+
 
 
 		.footer{
