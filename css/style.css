@@ -303,7 +303,6 @@ a, a:hover,.hover {
   right: 0%;
   top: 35%;
 	z-index: -1;
-	animation: self-rotate 80s linear infinite;
 }
 
 .kv_flower02{
@@ -312,7 +311,6 @@ a, a:hover,.hover {
 	right:23%;
 	top: 45%;
 	z-index: -1;
-	animation: self-rotate 80s linear infinite;
 }
 
 	@keyframes self-rotate {
