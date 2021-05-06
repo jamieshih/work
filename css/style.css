@@ -275,12 +275,8 @@ a, a:hover,.hover {
 		.kv_ninja02{
 			position: absolute;
 			top: 400px;
-		  right: -10%;
+		  right: -0%;
 			overflow:visible;  	
-		}
-
-		.kv_ninja02	img{
-			width: 80%;
 		}
 
 	}
