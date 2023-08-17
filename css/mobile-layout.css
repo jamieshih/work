@@ -479,7 +479,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
   width: 100%;
   float: left;
   text-align: left;
-  font-size: 15px;
+  font-size: 13px;
   color: #000000;
 	line-height:1.6;
 	word-break: break-all;
@@ -501,7 +501,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .notice .content{
 	width: 98%;
 	margin:0 auto;	
-	padding:50px 0 20px 0;
+	padding:4% 4%;
 }
 
 .notice b{
@@ -530,7 +530,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
   width: 100%;
   float: left;
   text-align: left;
-  font-size: 15px;
+  font-size: 13px;
   color: #000000;
 	line-height:1.6;
 	word-break: break-all;
@@ -540,7 +540,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .notice a{
 	background-color: #2a2a2a;
 	color: #fff;
-	font-size: 14px;
+  font-size: 13px;
 	padding:0.5% 2%;
 	border-radius:100px;
 }
@@ -548,7 +548,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .notice a:hover{
 	background-color: #be0d0d;
 	color: #fff;
-	font-size: 14px;
+  font-size: 13px;
 	padding:0.5% 2%;
 	border-radius:100px;
 }
@@ -586,6 +586,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	width: 100%;
 	display: table;
 	margin:0 auto;
+	padding-bottom: 10%;
 }
 
 .social ul{
@@ -625,9 +626,9 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .social span{
 	display: block;
 	color: #000;
-	font-size:16px;
+	font-size:14px;
 	font-weight: bold;
-	line-height: 50px;
+	line-height: 30px;
 	padding: 5px 10px;
 	border-radius: 20px;
 	/*border:3px solid #fff;*/
