@@ -116,7 +116,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	margin-left: 1%;	
+	margin-left: 0.5%;	
 }
 
 .nav ul{
@@ -448,7 +448,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .event .content{
-	width: 98%;
+	width: 100%;
 	margin:0 auto;	
 	padding:4% 4%;
 }
@@ -499,7 +499,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .notice .content{
-	width: 98%;
+	width: 100%;
 	margin:0 auto;	
 	padding:4% 4%;
 }
