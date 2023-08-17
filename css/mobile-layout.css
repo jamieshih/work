@@ -387,14 +387,14 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .content_04 .content ul{	
-	margin:10px 0 0 8px;	
+	margin:10px 0 0 2%;	
 }
 
 .content_04 .content li{
 	width:47%;
 	float: left;
 	display: block;
-	margin: 5px 0 15px 8px;
+	margin: 5px 0 15px 1%;
 }
 
 .content_04 .content li img{
