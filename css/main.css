@@ -1,0 +1,5 @@
+
+@import url(mobile-layout.css?202308) screen and (max-width: 767px);
+
+@import url(desktop-layout.css?202308) screen and (min-width: 768px);
+
