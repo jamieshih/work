@@ -140,7 +140,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
    padding: 0px;
    align-items: end;
    display: flex;
-   padding:5% 0 20% 0;
+   padding:5% 0 10% 0;
    justify-content: center;
 }
 
@@ -167,12 +167,12 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .tabs img {
-	width: 70%;
+	width: 85%;
 }
 
 
 .tab_content {
-    width: 1200px;
+    width: 100%;
     height: auto;
     display: inline-flex;
     flex-wrap: wrap;
