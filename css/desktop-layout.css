@@ -240,12 +240,13 @@
     -o-transition: 0.5s;
     /* Opera */
     transition: 0.5s;
+
 }
 
 .tabs li.active {
     width: 266px;
     height: 90px;
-    background: url(../images/tab_active.png) no-repeat;
+    background: url(../images/tab_active.gif) no-repeat;
     /* Firefox */
     -webkit-transition: 0.5s;
     /* Safari and Chrome */
@@ -284,6 +285,8 @@
 
 
 #tab1 li{
+	width:278px;
+	height: 385px;
 	float: left;
 	padding:10px;
 }

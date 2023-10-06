@@ -151,7 +151,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 .tabs li.active {
     width: 25%;;
-    background: url(../images/tab_active.png) top center no-repeat;
+    background: url(../images/tab_active.gif) top center no-repeat;
     background-size: 100%;
 }
 
@@ -189,6 +189,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 #tab1 li{
 	width: 45%;
+	height: auto;
 	float: left;
 	padding:2% 1% 2% 3%;
 }
