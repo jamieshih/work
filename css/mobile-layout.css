@@ -5,13 +5,13 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .topbar{
 	width: 100%;
 	height: 38px;
-	background-color: #000;
+	background-color: #fff;
 	line-height: 38px;
 	margin: 0 auto;
 }
 
 .topbar h2{
-	color: #fff;
+	color: #8f5e42;
 	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
@@ -108,7 +108,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	margin: 0 auto;
 	width:100%;
 	height: auto;
-	padding-top: 1%;
+	padding-top: 5%;
 	padding-bottom: 1%;
 }
 
@@ -167,7 +167,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .tabs img {
-	width: 86%;
+	width: 80%;
 }
 
 
@@ -389,37 +389,211 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 
 .list_shop a{
-    border: 4px #f8d65a solid;
+    border: 3px #63461d solid;
     border-radius: 30px;
     padding:8px 0;
     width: 90%;
     font-size: 18px;
     display: inline-block;
     background: #fff;
-    color: #2a2a2a;
+    color: #63461d;
     font-family: 'Arial';
     text-align:center;
 }
 
 .list_shop a:hover{
-    background: #000;
+    background: #63461d;
     color: #fff;
     font-family: 'Arial';
 }
+
+.list_content2{
+	width:100%;
+	margin:0 auto;	
+	float: left;
+}
+
+.list_title2{
+	width: 14%;
+	margin-top: 8px;
+	float: left;
+}
+
 /*list end*/
 
 
 .title{
   width:100%;
   margin: 0 auto;	
-  padding:4% 0 2% 0;
+  padding:1% 0 5% 0;
 }
 
 .title img{
-	width: 60%;
+	width: 100%;
 	display: block;
   margin: 0 auto;	
 }
+
+
+
+/*member*/
+
+.member{
+	display: inline-block;
+}
+
+.member .title{
+	display: table;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.member .title img{	
+	display: block;
+	margin-top:20px;	
+}
+
+
+.member ul{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.member li{
+	width: 100%;
+	float: left;
+	margin:2px 2px 2px 2px;
+}
+
+.member li img{
+	width: 100%;
+	float: left;
+	margin:2px 2px 2px 2px;
+}
+
+
+.member li img:hover{
+    transition: .3s;
+    -webkit-filter: brightness(110%);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-transform: scale(.98);
+    -moz-transform: scale(.98);
+    -ms-transform: scale(.98);
+    -o-transform: scale(.98);
+    transform: scale(.98)
+}
+
+
+.member .btn{
+    width:100%;
+    position: absolute;
+    display: block;
+    z-index: 9;
+    margin-top: 0;
+    margin-left: 0	
+}
+
+.member .btn ul {
+    width: 60%;
+}
+
+.member .btn ul img {
+    width: 100%;
+}
+
+.member .btn li {
+    width: 50%;
+    float: left;
+    margin-top: 51%;
+    margin-left: 0;
+}
+
+.member .btn li img {
+    padding: 62% 0 0 12%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.member .btn li a img:hover {
+    transition: .3s;
+    -webkit-filter: brightness(120%);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9)
+}
+
+.member .btn2{
+    width: 80%;
+    position: absolute;
+    display: block;
+    z-index: 9;
+    margin-top: 0;
+    margin-left: 0	
+}
+
+.member .btn2 ul {
+    width: 87%;
+}
+
+.member .btn2 ul img {
+    width: 100%;
+}
+
+.member .btn2 li {
+    width: 48%;
+    float: left;
+    margin-top: 26%;
+    margin-left: 0px;
+}
+
+.member .btn2 li img {
+    padding: 90% 0 0 0%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.member .btn2 li a img:hover {
+    transition: .3s;
+    -webkit-filter: brightness(120%);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9)
+}
+
+
+
+
+.order{
+	display: inline-block;
+	margin:20px 0;
+}
+
+.order img{
+	display: table;
+	width: 100%;
+}
+
+.order img:hover{
+    transition: .3s;
+    -webkit-filter: brightness(110%);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-transform: scale(.98);
+    -moz-transform: scale(.98);
+    -ms-transform: scale(.98);
+    -o-transform: scale(.98);
+    transform: scale(.98)
+}
+
 
 
 .popular_list{
@@ -581,7 +755,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 .social span{
 	display: block;
-	color: #fff;
+	color: #393231;
 	font-size:14px;
 	font-weight: bold;
 	line-height: 30px;
