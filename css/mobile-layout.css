@@ -59,14 +59,6 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	display: none;
 }
 
-.kv_logo {
-	display: none;
- }
-
-
-.kv_slogan1{
-	display: none;
-}
 
 .kv_day{
 	display: none;
@@ -81,6 +73,15 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 
+.kv_balloon01{
+	display: none; 
+}
+
+.kv_balloon02{
+	display: none; 
+}
+
+
 .kv_mobile{
 	width: 100%;
 	height: auto;
@@ -90,6 +91,21 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .kv_mobile img{
 	width: 100%;
 	height:auto;
+}
+
+.kv_logo{
+	position: absolute;
+	display: block;
+	width: 40%;
+	margin:3% 30%;
+ }
+
+
+.kv_slogan1{
+	position: absolute;
+	display: block;
+	width: 90%;
+	margin:10% 5%;
 }
 
 /*活動內容*/
@@ -818,3 +834,17 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 		  opacity: 1;
 		  letter-spacing: 0.1em;
 		}
+
+
+/*animate*/
+.brightness-bg{
+	-webkit-animation:brightness2-bg 2s -.30s linear infinite;
+	animation:brightness2-bg 2s -.30s linear infinite;
+}
+
+@keyframes brightness2-bg{
+0%{filter:brightness(130%)}
+20%{filter:brightness(92%)}
+40%{filter:brightness(130%)}
+80%{filter:brightness(92%)}
+100%{filter:brightness(130%)}
