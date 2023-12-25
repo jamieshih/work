@@ -34,11 +34,10 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	text-align: center;
 	font-weight: normal;
 	letter-spacing: 1px;
-	padding-top: 10px;
+	padding-top: 13px;
 	padding-bottom: 10px;
 	padding-right: 0px;
-	border-bottom: 1px solid #3b3030;
-	float: left;
+	float: left;	
 }
 
 
@@ -47,7 +46,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .topbar li{
-	width: 16%;
+	width: 16%;	
 	margin:0 auto;
 	float: left;
 	border-left:1px solid #3b3030;		
@@ -61,7 +60,9 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .topbar li a{
-	font-size: 14px;
+	font-size: 15px;
+	height: 45px;	
+	line-height: 45px;	
 	color: #fff;	
 	text-align: center;
 	font-weight: normal;
@@ -72,7 +73,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 .topbar li a:hover{
 	background:#fdff69;
-	font-size: 14px;
+	font-size: 15px;
 	color: #000;	
 	text-align: center;
 	font-weight: normal;
@@ -159,7 +160,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	width: 65%;	
 	display: block;
 	position: absolute;
-	top:8%;
+	top:10%;
 	left: 18%;
 }
 
@@ -237,7 +238,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .content_01 .content{	
 	width:100%;
 	height: auto;
-	background-image:url(../images/shipping_order.png);
+	background-image:url(../images/shipping_order_202401.png);
 	background-repeat:no-repeat;
 	background-size:100%;	
 	margin:0 auto;
@@ -246,6 +247,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	display:inline-block;
 	position: relative;
 	margin-top: 2%;
+	margin-bottom: 0px;	
 }
 
 .content_01 .title{
@@ -264,11 +266,11 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 .content_01 ul{
 	display: block;
-	padding:26% 0 0 22%;
+	padding:38% 0 0 15%;
 }
 
 .content_01 li{
-	width: 30%;
+	width: 36%;
 	float: left;
 	margin:2% 0 0 5%;
 }
