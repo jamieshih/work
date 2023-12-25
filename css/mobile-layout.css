@@ -28,13 +28,13 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 
 .topbar .logo{
-	width: 17%;	
+	width: 16%;	
 	color: #fff;
 	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
 	letter-spacing: 1px;
-	padding-top: 8px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 0px;
 	border-bottom: 1px solid #3b3030;
