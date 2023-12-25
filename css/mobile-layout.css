@@ -126,11 +126,6 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	display: none;
  }
 
-
-.kv_slogan1{
-	display: none;
-}
-
 .kv_day{
 	display: none;
 }
@@ -148,13 +143,25 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	width: 100%;
 	height: auto;
 	display: block;
-	padding-top: 80px;
+	padding-top: 78px;
+	position: relative;	
+	margin:0 auto;	
 }
 
 .kv_mobile img{
 	width: 100%;
 	height:auto;
 }
+
+
+.kv_slogan1{
+	width: 65%;	
+	display: block;
+	position: absolute;
+	top:17%;
+	left: 18%;
+}
+
 
 /*活動內容*/
 .event_container{
@@ -743,7 +750,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .notice .text02{
-	margin-left: 10%;
+	margin-left:3%;
 }
 
 
@@ -883,3 +890,45 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 		  opacity: 1;
 		  letter-spacing: 0.1em;
 		}
+
+
+/*animate*/
+.brightness-bg{
+	-webkit-animation:brightness2-bg 2s -.40s linear infinite;
+	animation:brightness2-bg 2s -.40s linear infinite;
+}
+
+@keyframes brightness2-bg{
+0%{filter:brightness(115%)}
+20%{filter:brightness(95%)}
+40%{filter:brightness(115%)}
+80%{filter:brightness(95%)}
+100%{filter:brightness(115%)}
+}
+
+.bright{
+	-webkit-animation:bright 1s -.20s linear infinite;
+	animation:bright 1s -.20s linear infinite;
+}
+
+@keyframes bright{
+0%{filter:brightness(90%)}
+20%{filter:brightness(110%)}
+40%{filter:brightness(90%)}
+80%{filter:brightness(110%)}
+100%{filter:brightness(90%)}
+}
+
+@-webkit-keyframes bounce-down {
+    25% {
+        -webkit-transform: translateY(-10px)
+    }
+
+    50%,100% {
+        -webkit-transform: translateY(0)
+    }
+
+    75% {
+        -webkit-transform: translateY(10px)
+    }
+}

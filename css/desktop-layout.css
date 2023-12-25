@@ -641,6 +641,7 @@
 	width:1200px;
 	margin:0 auto;
 	display: block;
+	margin-top: 20px;
 }
 
 .content_05 .content img:hover{
@@ -772,7 +773,7 @@
 .notice a:hover{
 	background-color: #be0d0d;
 	color: #fff;
-	font-size: 17px;
+	font-size: 18px;
 	padding:0.5% 2%;
 	border-radius:100px;
 }
