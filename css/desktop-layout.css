@@ -205,8 +205,8 @@
 .kv_slogan1{
 	position: absolute;
 	display: block;
-  top: 80px;
-  left: 205px;
+  top: 110px;
+  left: 70px;
   z-index: 2;
   cursor:pointer;
 }
@@ -234,16 +234,16 @@
 
 .kv_light{
 	position:absolute;
-	top: 130px;
-  left: 750px;
+	top: 150px;
+  left: 900px;
 	z-index:9;
 	mix-blend-mode: screen;
 }
 
 .kv_light2{
 	position:absolute;
-	top: 325px;
-  left: 120px;
+	top: 340px;
+  left: 10px;
 	z-index:9;
 	mix-blend-mode: screen;
 }
@@ -328,8 +328,8 @@
 	width: 1200px;
 	height: 500px;
 	position: relative;
-	background-image:url(../images/shipping_order_202401.png);
-	margin-bottom: 100px;
+	background-image:url(../images/shipping_order.png);
+	margin-bottom: 20px;
 }
 
 .content_01 .title{
@@ -347,7 +347,7 @@
 .content_01 ul{
 	display: block;
 	position: absolute;
-	margin:485px 0 0 350px;	
+	margin:355px 0 0 300px;	
 }
 
 .content_01 li{
@@ -389,12 +389,12 @@
 
 
 .content_02 .content ul{	
-	margin:10px 0 0 10px;	
+	margin:10px 0 0 16px;	
 }
 
 .content_02 .content li{	
 	float: left;
-	margin-left: 10px;
+	margin-left: 18px;
 }
 
 .content_02 .content li:hover{	
@@ -450,7 +450,7 @@
 	margin:10px 0 0 21px;	
 }
 
-.content_03 .prod li img:hover{
+/*.content_03 .prod li img:hover{
 	transition: 0.3s;
 	-webkit-filter:brightness(110%); 
   	-webkit-transform:scale(0.95);
@@ -458,7 +458,7 @@
     -ms-transform:scale(0.95);
     -o-transform:scale(0.95);
     transform:scale(0.95);
-     -webkit-filter: brightness(120%);   
+     -webkit-filter: brightness(120%);   */
 }
 
 
@@ -494,8 +494,8 @@
 	position: absolute;
 	display: block;
 	z-index: 9;
-	padding-top: 320px;
-	margin-left: 60px;
+	padding-top: 445px;
+	margin-left: 120px;
 }
 
 .content_03 .btn ul{
@@ -505,8 +505,37 @@
 .content_03 .btn li{
 	display: block;
 	margin:0 auto;
-	width: 114px;	
+	width: 150px;	
+	margin-left: 10px;
 }
+
+.content_03 .btn li a{
+	background-color: #000;
+  color: #fff;
+  font-size: 22px;
+  padding: 2% 20%;
+  border-radius: 100px;	
+  height: 22px;
+  line-height: 22px;
+  padding-bottom: 4%;
+  border:2px solid #000; 
+  font-weight: bold;  
+}
+
+
+.content_03 .btn li a:hover{
+	background-color: #ffcd40;
+  color: #000;
+  font-size: 22px;
+  padding: 2% 20%;
+  border-radius: 100px;	
+  height: 22px;
+  line-height: 22px;
+  padding-bottom: 4%;
+  border:2px solid #000;
+  font-weight: bold;
+}
+
 
 .content_03 .btn li a img:hover{
 	transition: 0.3s;
