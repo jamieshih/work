@@ -5,7 +5,7 @@
 		var settings = $.extend({
 			activeClass		: 'active',
 			wrapper			: '', 		// Nav wrapper selector for scroll effect
-			speed 			: 900,		// animation speed
+			speed 			: 300,		// animation speed
 			navStop 		: 100,		// stop before top
 			navStart 		: 200,		// change class before navstart pixel
 
