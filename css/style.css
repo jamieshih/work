@@ -103,11 +103,10 @@ a, a:hover,.hover {
 		.logo{
 			width: 30%;
 			display:inline-flex;
-			margin:3px 0px 0 0;
+			margin:15px 0px 0 20px;
 			text-indent: -999px;
 			overflow: hidden;
 			white-space: nowrap;
-			padding-left: 10px;
 		}
 
 		.nav{
@@ -131,16 +130,16 @@ a, a:hover,.hover {
 		}
 
 		.nav li a{
-		  width: 120px;	
-			height: 28px;	
-			line-height: 28px;	
+		  width: 160px;	
+			height: 40px;	
+			line-height: 40px;	
 			display: block;
 			color: #343a40;
-			font-size: 22px;
+			font-size: 38px;
 			text-decoration: none;
 			text-align: center;
 		  vertical-align: middle;
-			padding:4px 15px;
+			padding:8px 15px;
 		}
 
 		.nav li a:hover{	
@@ -221,14 +220,14 @@ a, a:hover,.hover {
 			max-width: 100%;
 			position: relative;
 			margin: 0 auto;
-			padding-top: 50px;
+			padding-top: 90px;
 		}
 
 		.second-nav-wrap{
 			position: fixed;
 			left: 0;
 			right: 0;
-			height: 80px;
+			height: 100px;
 			width: 100%;
 			background: #000;
 			z-index: 999;	
@@ -253,10 +252,11 @@ a, a:hover,.hover {
 		#onepage-nav li a {	
 			display: block;
 			width: auto;
-			line-height: 40px;
-			padding-top: 28px;	
+			height: 100px;
+			line-height: 100px;
+			padding-top: 5px;	
 			color: #fff;
-			font-size: 30px;
+			font-size: 38px;
 			text-decoration: none;
 		}
 
@@ -270,10 +270,11 @@ a, a:hover,.hover {
 			background-color: #0f54bd;
 			display: block;
 			width: auto;
-			line-height: 40px;
-			padding-top: 28px;	
+			height: 100px;	
+			line-height: 100px;
+			padding-top: 5px;	
 			color: #fff;
-			font-size: 30px;
+			font-size: 38px;
 			text-decoration: none;
 		}
 
