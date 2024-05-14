@@ -44,6 +44,11 @@ a, a:hover,.hover {
 	white-space: nowrap;
 }
 
+
+.logo img{
+	width: 50%;
+}
+
 .nav{
 	width: 66%;
 	float: right;
@@ -103,11 +108,15 @@ a, a:hover,.hover {
 		.logo{
 			width: 30%;
 			display:inline-flex;
-			margin:22px 0px 0 20px;
+			margin:20px 0px 0 20px;
 			text-indent: -999px;
 			overflow: hidden;
 			white-space: nowrap;
 		}
+
+		.logo img{
+			width: 100%;
+		}		
 
 		.nav{
 			width: 65%;
@@ -131,8 +140,8 @@ a, a:hover,.hover {
 
 		.nav li a{
 		  width: 200px;	
-			height: 40px;	
-			line-height: 40px;	
+			height: 60px;	
+			line-height: 60px;	
 			display: block;
 			color: #343a40;
 			font-size: 40px;
@@ -220,7 +229,7 @@ a, a:hover,.hover {
 			max-width: 100%;
 			position: relative;
 			margin: 0 auto;
-			padding-top: 120px;
+			padding-top: 130px;
 		}
 
 		.second-nav-wrap{
