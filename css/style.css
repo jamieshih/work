@@ -205,7 +205,7 @@ a, a:hover,.hover {
 
 
 #home{
-	padding-top: 200px
+	padding-top: 80px
 }
 
 
@@ -403,9 +403,9 @@ a, a:hover,.hover {
   animation: scroll 1s linear infinite;
 }
 
-@keyframes scroll{0%{top:735px}
-50%{top:755px}
-100%{top:735px}
+@keyframes scroll{0%{top:695px}
+50%{top:685px}
+100%{top:695px}
 }
 
 
@@ -439,9 +439,9 @@ a, a:hover,.hover {
 		  animation: scroll 0.8s linear infinite;
 		}
 
-		@keyframes scroll{0%{top:735px}
-		50%{top:755px}
-		100%{top:735px}
+		@keyframes scroll{0%{top:800px}
+		50%{top:810px}
+		100%{top:800px}
 		}
 
 
@@ -459,7 +459,7 @@ a, a:hover,.hover {
 	width: 100%;
 	margin: 0 auto;
 	width:1200px;
-	height:880px; 
+	height:780px; 
 	background-repeat:no-repeat;
 	position: relative;
 	margin-top: 40px;
@@ -480,7 +480,7 @@ a, a:hover,.hover {
 	position: absolute;
 	display: block;
   top: 50px;
-  left: 20px;
+  left: 30px;
   z-index: 9;
   cursor:pointer;
 }
@@ -488,8 +488,8 @@ a, a:hover,.hover {
 .kv_slogan2{
 	position: absolute;
 	display: block;
-  top: 125px;
-  left: 285px;
+  top: 80px;
+  left: 85px;
   animation-delay: 0.3s; 
   z-index: 10;
   cursor:pointer;
@@ -557,28 +557,34 @@ a, a:hover,.hover {
 
 .kv_img01{
 	position: absolute;
-  margin-top: 400px;
+  margin-top: 100px;
   left:-200px;
    animation-delay: 0.5s;  
-   animation: updown2 5s linear infinite;
-
-    
+   animation: updown2 5s linear infinite;  
 }
 
 .kv_img02{
 	position: absolute;
-   margin-top: 300px;
-   right: -200px;
+   margin-top: 420px;
+   left: -200px;
    animation-delay: 0.5s; 
-   animation: updown2 5s linear infinite;
+   animation: updown2 3s linear infinite;
 }
 
 .kv_img03{
 	position: absolute;
-   margin-top: 30px;
-   left: -330px;
-   z-index: -99;
+  margin-top: 100px;
+  right:-200px;
+   animation-delay: 0.5s;  
+   animation: updown2 5s linear infinite; 
+}
 
+.kv_img04{
+	position: absolute;
+  margin-top: 430px;
+  right:-160px;
+   animation-delay: 0.5s;  
+   animation: updown 3s linear infinite; 
 }
 
 
@@ -622,7 +628,15 @@ a, a:hover,.hover {
 	@media screen and (min-width: 768px) and (max-width: 1024px){
 
 		.kv_content{
-			height:850px; 
+			height:700px; 
+		}
+		.kv_slogan1{
+			position: absolute;
+			display: block;
+  		top: 150px;
+  		left: 30px;
+  		z-index: 9;
+  		cursor:pointer;
 		}
 
 		.sale_con .text{
@@ -647,6 +661,11 @@ a, a:hover,.hover {
 		.kv_img03{
 			display: none;
 		}
+
+		.kv_img04{
+			display: none;
+		}
+
 	}
 
 .more_logo{
@@ -736,7 +755,7 @@ a, a:hover,.hover {
 .content_01 ul{
 	display: block;
 	float: left;
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 .content_01 li img{
@@ -747,6 +766,7 @@ a, a:hover,.hover {
 .content_01 li{
 	display: block;
 	float: left;
+	margin-left: 15px;
 }
 
 .content_01 li img:hover{
@@ -764,12 +784,14 @@ a, a:hover,.hover {
 
 
 .content_02{
-	max-width: 100%;
-	height:auto;
-	margin: 0 auto;
+	width: 1200px;
+	height:760px;
 	display: table;
 	position: relative;
-	margin-top: 20px;
+	background-image: url(../images/con02_bg.png);
+	background-repeat: no-repeat;
+	background-position:top center;	
+	margin:50px auto 40px auto;
 }
 
 
