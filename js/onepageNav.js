@@ -6,7 +6,7 @@
 			activeClass		: 'active',
 			wrapper			: '', 		// Nav wrapper selector for scroll effect
 			speed 			: 100,		// animation speed
-			navStop 		: 100,		// stop before top
+			navStop 		: 160,		// stop before top
 			navStart 		: 200,		// change class before navstart pixel
 
 		}, options ),
