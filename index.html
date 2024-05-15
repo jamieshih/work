@@ -132,7 +132,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div class="content_04 wow fadeIn" id="cashback">
-  <div class="con04_more01"><a href="#text_02" target="_self"><img src="images/con04_cashback_more.png"></a></div>
+  <div class="con04_more01"><a href="#text_01" target="_self"><img src="images/con04_cashback_more.png"></a></div>
 
   <div class="con04">
     <ul>
@@ -177,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="content_07 wow fadeIn" id="new">
   <div class="title"><img src="images/con07_title.png"></div>
-  <div class="con07_more01"><img src="images/con07_registerbtn.png"></div>  
+  <div class="con07_more01"><a href="https://www.myjapan.hk/register.php" target="_blank"><img src="images/con07_registerbtn.png"></a></div>  
   <div class="con07_pop"><img src="images/con07_pop.png"></div>
   <ul>
     <li><a href="https://www.myjapan.hk/edm/23freeshipping/index.html" target="_blank"><img src="images/con07_new100.png"></a></li>
@@ -208,8 +208,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-<div class="more_logo wow fadeIn" id="shop">
-    <div class="btn_e"><a href="https://www.myjapan.hk/other_buy.php?tab=jp_other" target="_blank"><img src="images/shop_more.png"></a></div>
+<div class="more_logo" id="shop">
+    <div class="shop_more"><a href="https://www.myjapan.hk/other_buy.php?tab=jp_other" target="_blank"><img src="images/shop_more.png"></a></div>
     <ul>
     <li><a href="https://www.myjapan.hk/index.php" target="_blank"><img src="images/shop_yahoo.jpg"></a></li>
     <li><a href="https://www.myjapan.hk/index.php?tab=jp_rakuten" target="_blank"><img src="images/shop_rakuten.jpg"></a></li>
@@ -226,7 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="content_10 wow fadeIn" id="text_01">
+<div class="content_10" id="text_01">
     <div class="content">  
       <div class="btn_e"><a href="https://www.myjapan.hk/member_coupon.php" target="_blank"><img src="images/event_more.png"></a></div>             
       <div class="btn_f"><a href="https://www.myjapan.hk/help_center.php?tab=help&type=267&sub_type=316#493" target="_blank"><img src="images/notice_more.png"></a></div>      
@@ -239,7 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div class="content_social">
-    <div class="social" id="06">
+    <div class="social" id="social">
         <ul>
         <li><a href="https://www.myjapan.hk/help_center.php?tab=help&type=267" target="_blank"><img src="images/icon_qa.png"><span>常見問題</span></a></li>
         <li><a href="https://www.facebook.com/myjapan.hk/" target="_blank"><img src="images/icon_fb.png"><span>優惠快訊</span></a></li>
@@ -300,31 +300,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 $(document).ready(function() {
     $(".kv_slogan1").click(function() {
         $('html, body').animate({
-            scrollTop: $("#home").offset().top - 90
+            scrollTop: $("#home").offset().top - 120
         }, 1000);
     });
 
     $(".kv_slogan2").click(function() {
         $('html, body').animate({
-            scrollTop: $("#home").offset().top - 90
+            scrollTop: $("#home").offset().top - 120
+        }, 1000);
+    });
+
+    $(".arrow").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#home").offset().top - 120
         }, 1000);
     });
 
     $(".kv_box1").click(function() {
         $('html, body').animate({
-            scrollTop: $("#coupon").offset().top - 90
+            scrollTop: $("#coupon").offset().top - 120
         }, 1000);
     });
 
     $(".kv_box2").click(function() {
         $('html, body').animate({
-            scrollTop: $("#servicefee").offset().top - 90
+            scrollTop: $("#servicefee").offset().top - 120
         }, 1000);
     });
 
     $(".kv_box3").click(function() {
         $('html, body').animate({
-            scrollTop: $("#cashback").offset().top - 90
+            scrollTop: $("#cashback").offset().top - 120
         }, 1000);
     });      
 
@@ -333,8 +339,6 @@ $(document).ready(function() {
             scrollTop: $("#new").offset().top - 150
         }, 1000);
     }); 
-
-
 		  
 });
 
