@@ -141,7 +141,7 @@ a, a:hover,.hover {
 		.sidebar_m{
     position: fixed;
     right: 0px;
-    bottom:20%;
+    bottom:50%;
     z-index: 999999;
     display: block;
     opacity: 1;
