@@ -5,13 +5,13 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 .topbar{
 	width: 100%;
 	height: 38px;
-	background-color: #fff;
+	background-color: #000;
 	line-height: 38px;
 	margin: 0 auto;
 }
 
 .topbar h2{
-	color: #8f5e42;
+	color: #fff;
 	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
@@ -154,7 +154,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	padding:5% 0 0 10%;
 }
 
-.content_01 li{
+.content_01 li a {
 	width: 35%;
 	float: left;
 	margin:1% 0 0 1%;
@@ -374,7 +374,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .content_05 .content{
-	width: 80%;
+	width: 100%;
 	margin:0 auto;	
 	padding:5% 5%;
 }
@@ -385,13 +385,13 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 
 .content_05 li{
-	list-style-type: disc;
-	line-height: 26px;
+	list-style-type: none;
+	line-height: 24px;
 	font-size: 14px;
 }
 
 
-.content_05  .title{	
+.content_05 .title{	
 	width:100%;
 	font-size: 20px;
 	font-weight: bold;	
@@ -399,10 +399,16 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	text-align: center;
 }
 
+.content_05 .gray{
+	color: #646464;
+	font-size: 14px;
+}	
+
+
 
 /*商品區塊*/
 .product-section {
-	width: 98%;
+	width: 100%;
   text-align: center;
   margin:20px 0;
 }
@@ -417,7 +423,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
-  max-width: 100%
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -733,6 +739,73 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
     -o-transform: scale(.95);
     transform: scale(.95)
 }
+
+
+/*注意事項*/
+
+.notice{
+	width: 100%;
+	display:flex;
+	background-color: #fff;
+	margin:0 auto;
+	margin-top: 5%;
+}
+
+.notice .content{
+	width: 95%;
+	margin:0 auto;	
+	padding:5% 5%;
+}
+
+.notice b{
+	width: 100%;
+	margin: auto;
+	line-height: 35px;
+	height: 35px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #2a2a2a;
+	border-bottom:3px solid #2a2a2a;
+	justify-content: center; 
+	align-content: center;
+	flex-wrap: wrap; 	
+	text-align: center;
+	display: block; 
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 2%;
+	padding-bottom:5px;	
+}
+
+
+.notice p{
+  padding: 0%;
+  width: 100%;
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  color: #000000;
+	line-height:1.8;
+	word-break: break-all;
+	overflow-wrap: break-word;
+}
+
+.notice a{
+	background-color: #2a2a2a;
+	color: #fff;
+  font-size: 12px;
+	padding:0.5% 2%;
+	border-radius:100px;
+}
+
+.notice a:hover{
+	background-color: #be0d0d;
+	color: #fff;
+  font-size: 13px;
+	padding:0.5% 2%;
+	border-radius:100px;
+}
+
 
 /*------------------SOCIAL ICON---------------*/
 
