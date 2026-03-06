@@ -379,7 +379,6 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 .coupon_area{
-	 /*position: relative;*/
 	 margin: 0;
 	display: inline-block;
   width:100%;
@@ -424,6 +423,60 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 	display: block;
 	padding-top: 5%;
 	width: 100%;
+}
+
+
+.content_05{
+	width:100%;
+	height: auto;
+	background-image:url(../images/con05_bg.png) ;
+	margin:0 auto;
+	background-size:cover;
+	background-position: top center;
+  margin-top: 5%;
+}
+
+
+.content_05 .content{	
+	width: 100%;
+}
+
+
+.content_05 .con05_pop{
+   width: 100%;
+   display: block;
+  /* position: absolute;*/
+   margin: 0 0;
+   margin-left: 43%;
+   padding-top: 15%;
+   z-index: 9;
+}
+
+.content_05 .con05_pop img{
+	width: 50%;
+}
+
+.btn_info4 {
+  width:100%;
+  margin-top:15%;
+  margin-left:55%;
+  padding-bottom: 3%;
+  margin-right:auto;
+  display:block;
+}
+
+
+.btn_info4 a{
+  display: inline-block;   /* 保持內容包裹，不撐滿整行 */
+  padding: 3px 22px;      /* 上下左右間距 */
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  background: #05724b;     
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;     /* 讓文字不換行 */
 }
 
 
@@ -512,7 +565,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }
 
 
-/*活動辦法*/
+/*活動辦法
 .content_05{
 	width: 100%;
 	display:flex;
@@ -553,6 +606,7 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 }	
 
 
+*/
 
 /*商品區塊*/
 .product-section {
