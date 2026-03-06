@@ -303,13 +303,152 @@
 	width: 100%;
 }
 
-.newmember ul{	
-	display: block;
+.content_03_title{	
+	display: none;
+}	
+
+.content_03 ul{
+	margin-left: 350px;
 }
 
-.newmember li{	
-	display: block;
+.content_03  li{
 	float: left;
+	margin:25px 0 0 20px;
+}
+
+
+.content_04{
+	width:1158px;
+	height:1400px;
+	background-image:url(../images/con04_bg.png);
+	margin:0 auto;
+  background-position: top center;
+  background-size: 100%;
+  margin-top: 50px;
+	position: relative;   
+}
+
+.content_04 .content{	
+	width: 100%;
+}
+
+.btn_info{
+	display: block;
+	margin:0 auto;
+	margin:20px 0 0 160px;	
+}
+
+.btn_info2{
+	position: absolute;
+	display: block;
+	margin:0 auto;
+	margin:300px 0 0 130px;	
+}
+
+
+.btn_info3{
+	position: absolute;	
+	display: block;
+	margin:0 auto;
+	margin:300px 0 0 300px;	
+}
+
+.btn_info a,
+.btn_info3 a {
+  display: inline-block;   /* 保持內容包裹，不撐滿整行 */
+  padding: 10px 24px;      /* 上下左右間距 */
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  background: #05724b;     
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;     /* 讓文字不換行 */
+}
+
+
+.btn_info2 a{
+  display: inline-block;   /* 保持內容包裹，不撐滿整行 */
+  padding: 10px 24px;      /* 上下左右間距 */
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  background: #fb4c58;     
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;     /* 讓文字不換行 */
+}
+
+
+
+.btn_info_all{
+	margin-left: 500px;
+}
+
+.platform_list {
+	 position: absolute;
+	 margin: 270px 0 0 45px;
+	display: block;
+  width:1070px;
+  height:604px;
+  background:#f0fff9; 
+  border-radius:50px; 
+}
+
+.platform_list .title{
+	display: block;
+	width: 480px;
+	margin:0 auto;	
+	margin-top: 26px;	
+}
+
+.platform_list ul{
+	float: left;
+	margin: 30px 0 0 70px;	
+}
+
+.platform_list li{
+	margin: 0 0 8px 0;
+}
+
+.coupon_area{
+	 position: absolute;
+	 margin: 900px 0 0 45px;
+	display: block;
+  width:1070px;
+  height:454px;
+  background:#f0fff9; 
+  border-radius:50px; 
+}
+
+.coupon_area .title{
+	display: block;
+	width: 480px;
+	margin:0 auto;	
+	margin-top: 26px;	
+}
+
+.coupon_area ul{
+	margin: 30px 0 0 20px;	
+}
+
+.coupon_area li{
+	float: left;
+	margin: 0 0 8px 14px;
+}
+
+
+.btn_mercari{
+	display: block;
+	position: absolute;
+	margin:260px 0 0 100px;	
+}
+
+
+.con04_mbg{
+	display: none;
 }
 
 .list_discount{
@@ -347,28 +486,6 @@
 }
 
 
-.content_04{
-	width:1200px;
-	min-height:600px;
-	background-repeat:no-repeat;
-	margin:0 auto 70px auto;
-}
-
-.content_04 .content{	
-	width: 100%;
-}
-
-.content_04 .title{
-	display: block;
-	width: 1200px;
-	margin:0 auto;	
-	margin-top: 100px;	
-}
-
-.content_04 .title img{
-	display: block;
-	margin:0 auto;	
-}
 
 .list_discount_mercari{
 	width: 100%;
