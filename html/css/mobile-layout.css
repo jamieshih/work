@@ -287,13 +287,15 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 
 .platform_list {
-	 position: relative;
+	 /*position: relative;*/
 	 margin: 0;
-	display: block;
+	display: inline-block;
   width:100%;
   height:auto;
-  background:#fff; 
+  background:#fff;
   border-radius:0px; 
+  padding-bottom: 5%;
+  padding-top:3%;
 }
 
 .platform_list .title{
@@ -320,34 +322,42 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 
 .btn_info{
-	display: block;
+	display: flex; 
 	margin:0 auto;
-	margin:2% 30%;
+	justify-content: center; 
+	margin-left: 5%;
 }
 
+
+.btn_info_all{
+	width: 100%;
+	display: flex; 
+	margin:0 auto;
+	 justify-content: center; 
+}
 
 .btn_info2{
-	position: absolute;
-	display: block;
-	margin:0 auto;
+	width: 48%;
+	margin:0 auto;	
+	display: block;	
+	text-align: right;	
 }
 
-
 .btn_info3{
-	position: absolute;	
+	width: 48%;
+	margin:0 auto;	
 	display: block;
-	margin:0 auto;
-	margin:300px 0 0 300px;	
+	text-align: left;	
 }
 
 .btn_info a,
 .btn_info3 a {
   display: inline-block;   /* 保持內容包裹，不撐滿整行 */
-  padding: 10px 24px;      /* 上下左右間距 */
+  padding: 6px 24px;      /* 上下左右間距 */
   border-radius: 50px;
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   background: #05724b;     
   color: #fff;
   text-decoration: none;
@@ -357,22 +367,65 @@ a{-webkit-tap-highlight-color:rgba(225,225,225,0.5);}
 
 .btn_info2 a{
   display: inline-block;   /* 保持內容包裹，不撐滿整行 */
-  padding: 10px 24px;      /* 上下左右間距 */
+  padding: 6px 24px;      /* 上下左右間距 */
   border-radius: 50px;
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   background: #fb4c58;     
   color: #fff;
   text-decoration: none;
   white-space: nowrap;     /* 讓文字不換行 */
 }
 
-
-
-.btn_info_all{
-	margin-left: 500px;
+.coupon_area{
+	 /*position: relative;*/
+	 margin: 0;
+	display: inline-block;
+  width:100%;
+  height:auto;
+  background:#fff;
+  border-radius:0px; 
+  border-top: 1px solid #f5fffb;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+.coupon_area .title{
+	display: block;
+	width: 100%;
+	margin:0 auto;	
+	margin-top: 26px;	
+}
+
+.coupon_area ul{
+	float: left;
+	margin: 0 auto;
+	width: 100%;	
+}
+
+.coupon_area li{
+	width: 31.8%;	
+	margin:0.5%;
+	float: left;
+}
+
+.coupon_area li img{
+	width: 100%;	
+}
+
+.btn_mercari{
+	display: block;
+	width: 50%;
+	margin:5% auto 2% auto;
+}
+
+.btn_mercari img{
+	display: block;
+	padding-top: 5%;
+	width: 100%;
+}
+
 
 
 .list_shop{
