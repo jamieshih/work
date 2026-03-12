@@ -163,13 +163,13 @@ img{
 }
 
 .content_01 li:nth-child(4){
-	margin:5% 0 0 1%;
-	width: 47%;
+	margin:5% 0 0 0.5%;
+	width: 49%;
 }
 
 .content_01 li:nth-child(5){
-	margin:2% 0 0 1%;
-	width: 47%;
+	margin:3% 0 0 0.5%;
+	width: 49%;
 }
 
 
